@@ -8,7 +8,7 @@ from time import sleep
 #Login page
 Login=webdriver.Chrome(executable_path="/home/suraj/Desktop/chromedriver")
 Login.get("https://neosuiteuat.neeyamo.works")
-browser.maximize_window()
+Login.maximize_window()
 sleep(10)
 
 #Employee ID 
