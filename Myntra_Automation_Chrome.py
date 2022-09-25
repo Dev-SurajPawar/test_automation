@@ -8,7 +8,7 @@ from time import sleep
 
 browser=webdriver.Chrome(executable_path="/home/suraj/Desktop/chromedriver")
 browser.get("https://myntra.com")
-
+browser.maximize_window()
 sleep(10)
 
 search_box = browser.find_element(By.CLASS_NAME, 'desktop-searchBar')
